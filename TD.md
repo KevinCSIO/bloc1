@@ -25,4 +25,4 @@ La flexibilité de cette méthode est importante aussi car on peut y transmettre
 ** Les incovénients de la méthode POST
 
 
-![Image](https://2.bp.blogspot.com/-Y3I4eNUzdt0/VFTA2CgINyI/AAAAAAAAU7w/zUYYGUt1Z_4/s1600/difference_between_get_and_post_method.png)size = 34*32
+
