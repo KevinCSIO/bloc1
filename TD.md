@@ -29,12 +29,15 @@ Si une page Web est mise à jour avec un formulaire dans le navigateur, par exem
 
 # 2 . Comparaison méthodes
 
-|GET                         |POST                      |
-|--------------------------- |---------------------------
-|Quantité de données limitée |                          |
-|Données non sécurisées et visibles par les utilisateurs|Données sécurisées car non visibles par les utilisateurs|
-|                            |                          |
-|                            |                          |
+||GET                         |POST                      |
+||--------------------------- |---------------------------
+|Longueur / type de données|Quantité de données limitée, données ASCII |Quantité de données illimitée, données ASCII et binaires|
+|Sécurité|Données non sécurisées car visibles dans l'URL|Données sécurisées car non visibles dans l'URL|
+|Marque-page et historique de navigation|Les paramètres restent dans l’historique du navigateur car ils font partie de l’URL|Les paramètres ne sont pas enregistrés dans l’historique du navigateur|
+|Cache et fichier log du serveur|Les paramètres de l’URL sont stockés sans chiffrement|Les paramètres de l’URL ne sont pas enregistrés automatiquement|
+| |
+| |
+| |
 
 
 
