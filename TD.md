@@ -25,5 +25,5 @@ La confidentialité, par exemple, lors de l'envoi d'un formulaire contenant des 
 
 Si une page Web est mise à jour avec un formulaire dans le navigateur, par exemple, en utilisant le bouton « Précédent » / « Retour », les données doivent être de nouveau soumises. Il existe donc un risque que les données soient envoyées plusieurs fois par inadvertance, ce qui peut déclencher des commandes en double par exemple. De plus, les données transmises par la méthode POST ne peuvent pas être sauvegardées sous forme de marque-page avec l’URL.
 
-
+![Image](https://2.bp.blogspot.com/-Y3I4eNUzdt0/VFTA2CgINyI/AAAAAAAAU7w/zUYYGUt1Z_4/s1600/difference_between_get_and_post_method.png)
 
