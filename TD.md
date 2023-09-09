@@ -1,6 +1,7 @@
 # Méthodes GET et POST 
 ## La méthode GET
 
+
 La méthode GET envoie directement les données au serveur en les écrivant dans l'URL comme par exemple : www.example.com/register.php?firstname=peter&amp;name=miller&amp;age=55&amp;gender=male.
 
 Toutes les informations sont ainsi publiées librement, cela a des avantages comme des inconvénients. 
