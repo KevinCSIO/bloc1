@@ -29,7 +29,7 @@ Si une page Web est mise à jour avec un formulaire dans le navigateur, par exem
 
 # 2 . Comparaison méthodes
 
-|---------------------------|GET                         |POST                      |
+|                           |GET                         |POST                      |
 |---------------------------|--------------------------- |---------------------------
 |Longueur / type de données|Quantité de données limitée, données ASCII |Quantité de données illimitée, données ASCII et binaires|
 |Sécurité|Données non sécurisées car visibles dans l'URL|Données sécurisées car non visibles dans l'URL|
