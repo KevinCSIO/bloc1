@@ -14,6 +14,15 @@ L'autre inconvénient est sa capacité limitée mais aussi le fait que ces param
 
 * La méthode POST
 
-La méthode POST écrit les paramètres URL dans la requête HTTP pour le serveur. Les paramètres ne sont donc pas visibles pour les utilisateurs et la portée des requêtes POST est illimitée.
+La méthode POST écrit les paramètres URL dans la requête HTTP pour le serveur. Les paramètres ne sont ainsi pas visibles pour les utilisateurs et la portée des requêtes POST est illimitée.
+
+** Les avantages de la méthode POST
+La confidentialité, par exemple, lors de l'envoi d'un formulaire contenant des données sensibles, tels qu'un mdp et un login, à un serveur, ceux-ci ne seront pas visibles par tous.
+
+Les données ne sont pas retrouvables dans l'historique de navigation non plus car elles ne sont pas mises en cache. 
+La flexibilité de cette méthode est importante aussi car on peut y transmettre des données de toute taille et de tout type (vidéos, photos).
+
+** Les incovénients de la méthode POST
+
 
 ![Image](https://2.bp.blogspot.com/-Y3I4eNUzdt0/VFTA2CgINyI/AAAAAAAAU7w/zUYYGUt1Z_4/s1600/difference_between_get_and_post_method.png)
