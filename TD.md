@@ -37,6 +37,7 @@ Si une page Web est mise à jour avec un formulaire dans le navigateur, par exem
 |Cache et fichier log du serveur|Les paramètres de l’URL sont stockés sans chiffrement|Les paramètres de l’URL ne sont pas enregistrés automatiquement|
 |Actualisation du navigateur / Bouton « précédent »|Les paramètres de l’URL ne sont pas envoyés à nouveau|Avertissement du renvoi des données du formulaire|
 
+# 3 .Extensible
 
 
 
