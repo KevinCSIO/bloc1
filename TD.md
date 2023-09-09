@@ -27,4 +27,17 @@ Si une page Web est mise à jour avec un formulaire dans le navigateur, par exem
 
 ![Image](https://2.bp.blogspot.com/-Y3I4eNUzdt0/VFTA2CgINyI/AAAAAAAAU7w/zUYYGUt1Z_4/s1600/difference_between_get_and_post_method.png)
 
+# 2 . Comparaison méthodes
+
+|GET                         |POST                      |
+|--------------------------- |---------------------------
+|Quantité de données limitée |                          |
+|                            |                          |
+|                            |                          |
+|                            |                          |
+
+
+
+
+
 
