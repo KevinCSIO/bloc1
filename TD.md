@@ -16,7 +16,7 @@ L'autre inconvénient est sa capacité limitée mais aussi le fait que ces param
 
 La méthode POST écrit les paramètres URL dans la requête HTTP pour le serveur. Les paramètres ne sont ainsi pas visibles pour les utilisateurs et la portée des requêtes POST est illimitée.
 
-*** Les avantages de la méthode POST
+* * Les avantages de la méthode POST
 
 La confidentialité, par exemple, lors de l'envoi d'un formulaire contenant des données sensibles, tels qu'un mdp et un login, à un serveur, ceux-ci ne seront pas visibles par tous.
 
