@@ -32,7 +32,7 @@ Si une page Web est mise à jour avec un formulaire dans le navigateur, par exem
 |GET                         |POST                      |
 |--------------------------- |---------------------------
 |Quantité de données limitée |                          |
-|                            |                          |
+|Données non sécurisées et visibles par les utilisateurs|                          |
 |                            |                          |
 |                            |                          |
 
