@@ -27,7 +27,7 @@ Si une page Web est mise à jour avec un formulaire dans le navigateur, par exem
 
 ![Image](https://2.bp.blogspot.com/-Y3I4eNUzdt0/VFTA2CgINyI/AAAAAAAAU7w/zUYYGUt1Z_4/s1600/difference_between_get_and_post_method.png)
 
-# 2 . Comparaison méthodes
+# 2. Comparaison méthodes
 
 |                           |GET                         |POST                      |
 |---------------------------|--------------------------- |---------------------------|
@@ -37,9 +37,17 @@ Si une page Web est mise à jour avec un formulaire dans le navigateur, par exem
 |Cache et fichier log du serveur|Les paramètres de l’URL sont stockés sans chiffrement|Les paramètres de l’URL ne sont pas enregistrés automatiquement|
 |Actualisation du navigateur / Bouton « précédent »|Les paramètres de l’URL ne sont pas envoyés à nouveau|Avertissement du renvoi des données du formulaire|
 
-# 3 .Extensible
+# 3. Extensible
 
+Conçu au début des années 1990, HTTP est un protocole extensible qui a évolué au fil du temps. Comme il est extensible, il est utilisé  pour transmettre des documents hypertextes HTTP, mais aussi des images ou des vidéos, ou encore pour envoyer des données ou du contenu à des serveurs, comme dans le cas des formulaires. Le HTTP/0.9 était très limité et les navigateurs et serveurs s'en sont aperçus, l'étendant sur des usages plus polyvalents. Ainsi, dans chaque requête figurait les informations de version, la mention du protocole est ajoutée à la ligne GET de la version HTTP/0.9. Au début de chaque réponse, une ligne de code d'état est aussi envoyée permettant au navigateur de prendre connaissance du succès ou de l'échec de la requête, et de s'adapter en conséquence. La notion d'en-tête HTTP a aussi été mise en place pour les requêtes aisni que les réponses. Celle-ci autorise la transmission de métadonnées rendant le protocole très flexible et extensible. Avec ces nouveaux en-têtes HTTP, il est désormais possible de transmettre d'autres documents que des fichiers HTML bruts. Au fur et à mesure des années, ce protocole a été amené à évoluer, puisqu'après celui-ci se trouve le protocole HTTP/1.1 contenant d'autres améliorations. C'est un protocole qui évolue depuis maintenat près de 15 ans en étant toujours stable.
 
+# 4. Sans état
+
+HTTP est un protocole sans état, c'est-à-dire qu'il ne stocke aucune information sur les connexions précédentes. Or, le développement d'applications Web doit souvent maintenir l'état. Pour ce faire, on utilise des cookies, informations qu'un serveur peut stocker sur le système du client permettant aux applications Web de suivre les utilisateurs et leur activité en ligne puisque les cookies peuvent être stockés sur le client pendant une période indéfinie.
+
+# 5. URL
+
+![image](http://sciences-ingenieur.genevoix-signoret-vinci.fr/SNT/2-web/res/url.jpg)
 
 
 
