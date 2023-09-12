@@ -49,6 +49,24 @@ HTTP est un protocole sans état, c'est-à-dire qu'il ne stocke aucune informati
 
 ![image](http://sciences-ingenieur.genevoix-signoret-vinci.fr/SNT/2-web/res/url.jpg)
 
+-> http:// correspond au protocole. Cela indique au navigateur le protocole qui doit être utilisé pour récupérer le contenu. Généralement HTTP ou HTTPS (sécurisé)
+-> www.unsite.fr correspond au nom de domaine. Il indique le serveur web auquel le navigateur s'adresse pour échanger le contenu. À la place du nom de domaine, on peut utiliser une adresse IP, ce qui est moins pratique et donc moins utilisé sur le Web.
+-> :1337 correspond au port utilisé sur le serveur web. Il indique la « porte » technique à utiliser pour accéder aux ressources du serveur. Généralement, cette partie est absente car le navigateur utilise les ports standards associés aux protocoles (80 pour HTTP, 443 pour HTTPS).
+-> /intro/page.html est le chemin, sur le serveur web, vers la ressource. Aux débuts du Web, ce chemin correspondait souvent à un chemin « physique » existant sur le serveur. De nos jours, ce chemin n'est qu'une abstraction qui est gérée par le serveur web, il ne correspond plus à une réalité « physique ».
+-> #chap1 correspond à une ancre. Celle-ci désigne un endroit donné de la ressource. Elle représente une sorte de "marque-page" à l'intérieur de la ressource, afin que le navigateur affiche la ressource à l'endroit de ce "marque page".
 
+# 6. Codes Status
 
+Il y a 5 classes de codes Statut : 
+La 100s qui correspond aux codes d’information indiquant que la demande initiée par le navigateur se poursuit.
+Ex : 101 -> Switching Protocols : Acceptation du changement de protocole
+La 200s qui correspond aux codes de réussite renvoyés lorsque la requête du navigateur est reçue, comprise et traitée par le serveur.
+Ex : 200 -> OK : succès de la requête
+La 300s qui correspond aux codes de redirection renvoyés lorsqu’une nouvelle ressource a été substituée à la ressource demandée.
+Ex : 301 -> Moved Permanently	 : Document déplacé de façon permanente
+La 400s qui correspond aux codes d’erreur des clients lorsqu’il y a eu un problème avec la requête.
+Ex : 404 -> Not Found	: Ressource non trouvée
+La 500s qui correspond aux codes d’erreur du serveur indiquant l'acceptation de la requête, mais qu’une erreur sur le serveur a empêché son exécution.
+Ex : 500 -> Internal Server Error	: Erreur interne du serveur
 
+# 7. Négociation de contenu
