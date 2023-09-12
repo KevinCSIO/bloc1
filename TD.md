@@ -70,3 +70,6 @@ La 500s qui correspond aux codes d’erreur du serveur indiquant l'acceptation d
 Ex : 500 -> Internal Server Error	: Erreur interne du serveur
 
 # 7. Négociation de contenu
+
+La négociation de contenu est un mécanisme du protocole HTTP qui permet de proposer une même ressource sous plusieurs formes différentes permettant ainsi aux clients HTTP de choisir automatiquement la représentation la mieux adaptée à leurs capacités.
+![image](https://developer.mozilla.org/fr/docs/Web/HTTP/Content_negotiation/httpnego.png)
