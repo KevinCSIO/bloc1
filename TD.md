@@ -72,4 +72,8 @@ Ex : 500 -> Internal Server Error	: Erreur interne du serveur
 # 7. Négociation de contenu
 
 La négociation de contenu est un mécanisme du protocole HTTP qui permet de proposer une même ressource sous plusieurs formes différentes permettant ainsi aux clients HTTP de choisir automatiquement la représentation la mieux adaptée à leurs capacités.
+
 ![image](https://developer.mozilla.org/fr/docs/Web/HTTP/Content_negotiation/httpnego.png)
+
+Un document donné est défini comme une ressource. Lorsqu'un client souhaite obtenir une ressource, il la demande via une URL. Le serveur utilise alors cette URL pour choisir l'une des variantes disponibles. Chaque variante est appelée "représentation". Le serveur renvoie alors une représentation au client. La ressource, ainsi que chacune de ses représentations, dispose d'une URL spécifique. La négociation de contenu détermine quelle représentation donnée est utilisée lorsque la ressource est demandée. 
+On distingue alors deux méthodes de négociation de contenu, la négociation proactive, qui consiste à ce que le serveur sélectionne la représentation en fonction des préférences déclarées de l’agent utilisateur, et la négociation réactive qui est celle du serveur, ici, le serveur fournit une liste de représentations pour l’agent utilisateur à choisir.
