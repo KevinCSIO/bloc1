@@ -84,11 +84,11 @@ On distingue alors deux méthodes de négociation de contenu, la négociation pr
 
 |En-tête|Signification|Exemple|
 |-------|-------------|-------|
-|Accept|Les types de contenu que le client peut traiter ; si le champ est vide, il s’agit de tous les types de contenu|Accept: text/html, application/xml|
-|Accept-Charset|Quels jeux de caractères le client peut afficher|Accept-Charset: utf-8|
-|Accept-Encoding|Les formats compressés pris en charge par le client|Accept-Encoding: gzip|
+|Accept|Types de contenu traitables par le client (champ vide -> tous types de contenu)|Accept: text/html, application/xml|
+|Accept-Charset|Jeux de caractères que le client peut afficher|Accept-Charset: utf-8|
+|Accept-Encoding|Formats compressés pris en charge par le client|Accept-Encoding: gzip|
 |Accept-Language|Version linguistique souhaitée|Accept-Language: fr-FR|
-|Authorization|Données d’authentification (par exemple pour un login)|Basic WjbU7D25zTAlV2tZ7==|
+|Authorization|Données d’authentification (ex : login)|Basic WjbU7D25zTAlV2tZ7==|
 |Cache-Control|Options du mécanisme de mise en cache|Cache-Control: no-cache|
 |Cookie|Cookie stocké pour ce serveur|Cookie: $Version=1; Content=23|
 |Content-Length|Longueur de l’organisme demandeur|Content-Length: 212|
@@ -97,16 +97,16 @@ On distingue alors deux méthodes de négociation de contenu, la négociation pr
 |Expect|Formule une attente au serveur, généralement la réception d’une demande importante|Expect: 100-continue (le serveur doit envoyer le code 100 lorsqu’il est prêt à recevoir la requête)|
 |Host|Nom de domaine du serveur|Host: exemple.fr|
 |If-Match|Exécution conditionnelle d’une action, en fonction de la concordance d’un code transmis|If-Match: „ft678iujhnjio90’pöl“|
-|If-Modified-Since|Envoyer uniquement si le contenu demandé a été modifié depuis le moment spécifié|IF-Modified-Since: Mon 2 Mar 2020 1:00:00 GMT|
-|If-None-Match|Comme ci-dessus, mais spécifié via un ETag (Entity-Tag = tag d’entité, voir ci-dessous)|If-None-Match: „cxdrt5678iujhgbvb“|
+|If-Modified-Since|Envoi uniquement si le contenu demandé a été modifié depuis le moment spécifié|IF-Modified-Since: Mon 2 Mar 2020 1:00:00 GMT|
+|If-None-Match|Comme ci-dessus, mais spécifié via un ETag (Entity-Tag = tag d’entité)|If-None-Match: „cxdrt5678iujhgbvb“|
 |If-Range|Ne demande que la partie du contenu qui a été modifiée ou qui manque dans le cache du client|If-Range: Mon 2 Mar 2020 1:00:00 GMT|
 |If-Unmodified-Since|Analogue à IF-Modified-Since|If-Modified-Since: Mon 2 Mar 2020 1:00:00 GMT|
 |Max-Forwards|Définit le nombre maximum de fois que la réponse du serveur peut être transmise|Max-Forwards: 12|
 |Proxy-Authorization|Utilisé pour authentifier le client auprès d’un serveur proxy|Proxy-Authorization: Basic WjbU7D25zTAlV2tZ7==|
 |Range|Précise une partie du contenu demandé|Range: bytes=0-9999|
-|Referrer|URL de la ressource à partir de laquelle la demande est faite (c’est-à-dire à partir de laquelle le lien a été créé)|Referrer: https://exemple.fr/index.html|
+|Referrer|URL de la ressource à partir de laquelle la demande est faite|Referrer: https://exemple.fr/index.html|
 |TE|Codage de transfert d’extension accepté|TE: gzip, deflate|
-|User-Agent|User-Agent du client (simplement dit : le navigateur)|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36|
+|User-Agent|User-Agent du client (navigateur)|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36|
 
 
 
