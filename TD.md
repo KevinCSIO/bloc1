@@ -108,5 +108,12 @@ On distingue alors deux méthodes de négociation de contenu, la négociation pr
 |TE|Codage de transfert d’extension accepté|TE: gzip, deflate|
 |User-Agent|User-Agent du client (navigateur)|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36|
 
+# Sources
+1, 2) https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
+3, 4) https://developer.mozilla.org/fr/docs/Web/HTTP/Overview
+5) http://sciences-ingenieur.genevoix-signoret-vinci.fr/SNT/2-web/co/08url.html
+6) https://apical.xyz/fiches/la_gestion_des_erreurs_002/Les_codes_d_etat_HTTP
+7) https://developer.mozilla.org/fr/docs/Web/HTTP/Content_negotiation
+10) https://www.ionos.fr/digitalguide/hebergement/aspects-techniques/http-header/
 
 
