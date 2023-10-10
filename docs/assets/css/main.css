@@ -1,7 +1,24 @@
 .titre1{
-	color: darkgreen;
+	color: black;
+	font-style: bold; 	
 }
 
 .titre2{
-	color: green;
+	font-style: bold;
+	color: darkgreen;
+	text-decoration: underline;
+}
+
+.titre3{
+	font-style: bold;
+	color: black;
+}
+
+p>span{
+	color: red;
+	text-decoration: underline;
+}
+
+body{
+	font-size: 15px;
 }
