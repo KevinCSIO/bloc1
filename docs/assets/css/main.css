@@ -22,3 +22,33 @@ p>span{
 body{
 	font-size: 15px;
 }
+
+edition{
+	font-style: bold;
+	color: darkgreen;
+	text-decoration: underline;
+}
+
+hebergement{
+	font-style: bold;
+	color: darkgreen;
+	text-decoration: underline;
+}
+
+confidentialite{
+	font-style: bold;
+	color: darkgreen;
+	text-decoration: underline;
+}
+
+cookies{
+	font-style: bold;
+	color: darkgreen;
+	text-decoration: underline;
+}
+
+donnees{
+	font-style: bold;
+	color: darkgreen;
+	text-decoration: underline;
+}
