@@ -1,54 +1,46 @@
+
 .titre1{
-	color: black;
-	font-style: bold; 	
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;		
+
+}
+
+span{
+	font-weight: bold;
 }
 
 .titre2{
-	font-style: bold;
-	color: darkgreen;
-	text-decoration: underline;
+	font-weight: bold;
+	color: chocolate;
+	margin-top: 2px;
 }
 
-.titre3{
-	font-style: bold;
-	color: black;
+p{
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 100%;
+
 }
 
-p>span{
-	color: red;
-	text-decoration: underline;
+
+div.fond{
+	background-color: whitesmoke;
+	width: 35%;
+	margin-top: 45px;
+	margin-bottom: 10px;
+	margin-left: 600px;
+	margin-right: 60px;
+
 }
 
-body{
-	font-size: 15px;
+*{
+	justify-content: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-edition{
-	font-style: bold;
-	color: darkgreen;
-	text-decoration: underline;
-}
 
-hebergement{
-	font-style: bold;
-	color: darkgreen;
-	text-decoration: underline;
-}
-
-confidentialite{
-	font-style: bold;
-	color: darkgreen;
-	text-decoration: underline;
-}
-
-cookies{
-	font-style: bold;
-	color: darkgreen;
-	text-decoration: underline;
-}
-
-donnees{
-	font-style: bold;
-	color: darkgreen;
-	text-decoration: underline;
+div.liste{
+	margin-left: -20px;
 }
