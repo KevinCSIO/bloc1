@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: azure;
+}
+header{
+    display: flex;
+    justify-content: end;
+    background-image: url("../images/header-bg.jpg");
+    background-position: center;
+    padding: 35px;
+}
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.header nav .logo{
+    margin-right: 800px;
+}
+
+.header nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 50px;
+}
+
+.icone{
+    width: 18px;
+} 
+.para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    height: calc(50vh - 60px);
+    text-justify: center;
+    font-size: 17px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.btn{
+    display: flex;
+    margin-top: -95px;
+    justify-content: center;
+    align-items: center;
+}
+.READ:hover{
+    background-color:#93bdfd ;
+    box-shadow: 0 0 5px #93bdfd, 0 0 50px #93bdfd, 0 0 100px #93bdfd, 0 0 400px #93bdfd;
+}
+.READ:before,
+.READ:after{
+    position:relative;
+    content: "";
+    z-index: -1;
+}
+.READ{
+    border-radius: 3px;
+    border-color: #93bdfd;
+    transition: .4s ease-in;
+    z-index: 1;
+    text-decoration: none;
+}
+.READ a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.partner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/*footer{
+    background-color: #93bdfd;
+    height: 75px;
+    width: auto;
+}*/
+footer{
+    background: linear-gradient(to right, #334eff, #93bdfd); /* Dégradé de couleur */
+    height: 50px;
+    color: #fff; /* Couleur du texte en blanc */
+    padding: 20px;
+    text-align: center;
+}
