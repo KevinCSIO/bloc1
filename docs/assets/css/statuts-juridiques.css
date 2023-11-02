@@ -1,0 +1,49 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    font-size: 15px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(61, 61, 61);
+    margin-bottom: 5px;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px lightgray;
+    border-bottom: black;
+}
+
+th{
+    background-color: lightgray;
+    border: black;
+}
+
+td.cote{
+    background-color: gray;
+    border-bottom-color: black;
+}
+
+td{
+    background-color: antiquewhite;
+    border-color: black;
+}
+
+tbody td {
+    text-align: left;
+}
+
+tbody th {
+    text-align: left;
+}
+
+th, td {
+  padding: 20px;
+}
+
