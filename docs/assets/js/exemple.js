@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     addEvt('#bt-creer', 'click', ()=>{
         const li=document.createElement('li');
         li.innerText=$('#elm').value;
-        li.style=$('#color').value;
+        li.style.color=$('#color').value;
         $('#ul-elements').appendChild(li);
 
     });
