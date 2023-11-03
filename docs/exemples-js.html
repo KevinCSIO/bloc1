@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Exemples</title>
+</head>
+<body>
+<h1>Exemples Javascript</h1>
+<label for="nom">Nom :</label> 
+<input type="text" id="nom" placeholder="Entrez votre nom">
+<div id="resultat">
+    <p>Le nom saisi est : </p>
+    <p id="saisie">*******</p>
+</div>
+   <script>
+        // alert('Hello World');
+        // let valeur=50;
+        // alert('Message : ' + message + ' Valeur : ' + valeur + ' b : ' + b);
+        // alert(`Message :${message} Valeur :${valeur} b: ${b}`);
+        // document.write(typeof valeur);
+        // valeur='Bonjour';
+        // document.write(typeof valeur);
+        // alert(document.body.innerHTML);
+        // let nom=prompt('Quel est votre nom ?');
+        // document.write(nom);
+        
+        function afficheMessage(msg, asAlert){
+            if(asAlert){
+                alert(msg);
+            }else {
+                console.log(msg);
+            }
+        }
+
+        //afficheMessage('Hello all!', true);
+        // afficheMessage('Message affiché dans la console', false);
+        // afficheMessage('Pour les devs uniquement');
+
+        const keyPressFunction=function(event) {
+            debugger;
+            document.querySelector('#saisie').innerHTML=event.target.value;
+        };
+        document.querySelector('#nom').addEventListener('keyup', keyPressFunction);
+
+    </script>
+</body>
+</html>
