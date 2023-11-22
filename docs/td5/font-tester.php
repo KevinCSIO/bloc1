@@ -4,6 +4,9 @@ if (empty($_GET)){
 };
 $message=$_GET["message"]??"Message par défaut";
 $size=$_GET["size"]??"12";
+if(isset($_GET["sizeVar"])){
+    $size=$size-10;
+};
 $color=$_GET["color"]??"black";
 ?>
 <!doctype html>
@@ -28,6 +31,8 @@ $color=$_GET["color"]??"black";
 </ul>
 <form action="<?=$_SERVER["PHP_SELF"]?>">
     <input type="number" name="size" value="<?=$size?>">
+    <input type="submit" name="sizeVar" value="+">
+    <input type="submit" name="sizeVar" value="-">
     <input type="color" name="color" value="<?=$color?>">
     <textarea name="message"></textarea>
     <button type="submit">Valider</button>
