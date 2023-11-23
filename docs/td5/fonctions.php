@@ -1,0 +1,19 @@
+<?php
+function titre($content, $sousTitre="", $level=1){
+    echo "<h$level>$content</h$level>";
+    if($sousTitre!=''){
+        echo "<p class='sub-title'>$sousTitre</p>";
+    }
+}
+
+const IPSUM_ARRAY=[
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium ultricies ullamcorper. Nulla imperdiet egestas odio, ac semper mauris ornare nec. Maecenas quam nulla, malesuada sit amet consectetur sed, tincidunt non enim. Fusce suscipit justo eget enim eleifend mollis. In ac magna in magna dignissim dignissim. Praesent bibendum mauris in libero volutpat congue. Suspendisse egestas sapien id libero varius, a aliquam nisi condimentum. Sed aliquam metus non augue faucibus, laoreet interdum ligula blandit. Praesent quis elementum ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In quam nulla, tempus vitae ex a, tempor porttitor risus. Aliquam sit amet turpis a nibh consequat suscipit. Donec vulputate velit ac orci scelerisque rhoncus. Vivamus eleifend ligula ante, et lobortis purus lacinia sodales.",
+
+    "Nullam sodales a turpis fringilla cursus. Praesent purus risus, condimentum a enim in, facilisis scelerisque mi. Etiam rhoncus neque eget lobortis pellentesque. Curabitur sed lectus lorem. Phasellus ac nisi ex. Curabitur viverra, diam ac gravida aliquam, lacus mi commodo augue, ac laoreet urna dolor eget diam. Nunc pharetra, elit eget fermentum pellentesque, odio mi suscipit tortor, a scelerisque mi metus sed orci. Nam at est ut sem imperdiet vehicula vel id orci. Nulla auctor vel purus aliquam luctus. Sed posuere in sapien sit amet dapibus. Maecenas egestas posuere elit vel gravida. In pretium nisl vitae laoreet semper. Nulla euismod, felis et placerat sodales, neque lectus rutrum tortor, nec posuere mi mi ac enim. Suspendisse vitae pulvinar odio. Ut et semper quam, ac porttitor sem.",
+    
+    "Mauris consequat elit sit amet lorem sagittis laoreet. Phasellus sagittis lacus lacus, at tincidunt orci suscipit ut. Pellentesque sed lectus mollis, dignissim sem a, hendrerit metus. Morbi vestibulum vestibulum pellentesque. Mauris viverra accumsan facilisis. Nullam congue quam vitae lectus tempor gravida. Nam non placerat velit, vel viverra nisi. Maecenas tincidunt quis tellus id ultricies. Vivamus ut ex varius, mollis dui et, efficitur sapien. Nulla quam tellus, ultrices eu ullamcorper auctor, venenatis vitae ligula.",
+    
+    "Maecenas consectetur tortor tellus, vitae hendrerit est sodales ac. Sed sit amet dignissim ex. Proin vestibulum, nunc in viverra varius, nibh magna viverra magna, ac laoreet lorem velit sit amet eros. Duis non feugiat mi. Cras ultrices malesuada ante a consectetur. Integer posuere augue nec arcu vestibulum, vitae molestie arcu pretium. Maecenas luctus eget velit eget pharetra. Vestibulum porttitor imperdiet tortor sed accumsan.",
+    
+    "Vivamus ut luctus arcu, sed mollis justo. Donec eleifend ante varius, finibus enim nec, sollicitudin libero. Donec interdum lectus ipsum, vel tincidunt nunc facilisis id. Integer gravida sapien ac neque luctus, eget facilisis nisl cursus. Nullam ante arcu, luctus ac turpis non, malesuada accumsan odio. Nunc aliquam ex nec libero porta, et pellentesque massa maximus. Nunc ac orci congue, sollicitudin mauris vitae, porta arcu. Vivamus ut sagittis tortor. Proin vitae egestas felis. Sed cursus mattis eleifend. Aenean condimentum enim mattis metus vestibulum, eget dictum neque imperdiet. Nulla finibus suscipit est, pulvinar sollicitudin ligula posuere vitae. Cras ullamcorper magna in mi porttitor, vitae venenatis elit aliquet. Aliquam eget leo ac mauris maximus ultrices. Curabitur eget ipsum non nisl maximus pellentesque id at enim.",
+];

@@ -2,12 +2,14 @@
 if (empty($_GET)){
     die("Erreur : rien dans le get");
 };
-$message=$_GET["message"]??"Message par défaut";
-$size=$_GET["size"]??"12";
+extract($_GET);
+$message??="Message par défaut";
+$size??="12";
 if(isset($_GET["sizeVar"])){
-    $size=$size-10;
+    $up=($sizeVar=="+")?10:-10;
+    $size+=$up;
 };
-$color=$_GET["color"]??"black";
+$color??="black";
 ?>
 <!doctype html>
 <html lang="fr">
@@ -34,7 +36,7 @@ $color=$_GET["color"]??"black";
     <input type="submit" name="sizeVar" value="+">
     <input type="submit" name="sizeVar" value="-">
     <input type="color" name="color" value="<?=$color?>">
-    <textarea name="message"></textarea>
+    <textarea name="message"><?=$message?></textarea>
     <button type="submit">Valider</button>
 </form>
 <div style="color: <?=$color?>;font-size:<?=$size?>px"><?=$message?></div>
