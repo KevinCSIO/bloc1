@@ -1,13 +1,16 @@
+<?php
+require_once("yaml/yaml.php");
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./docs/assets/css/main_v2.css">
+    <link rel="stylesheet" href="assets/css/main_v2.css">
     <title>Portfolio - CAMUS Kévin</title>
 </head>
 <body>
-        <section class="accueil" style="background: yellow;">
+        <section class="accueil">
             <div class="header">
                 <h1 class="titre1">Kévin CAMUS<br>PORTFOLIO</h1>
                 <nav>
@@ -17,13 +20,13 @@
                     <a href="#experience">Expérience</a>
                     <a href="#formation">Formation</a>
                     <a href="#contact">Contact</a>
-                    <a href="https://www.linkedin.com/in/k%C3%A9vin-camus-2577a4261/?originalSubdomain=fr" target="_blank" id="linkedin-logo"><img src="./docs/images/LinkedIn_logo.avif" alt="Logo LinkedIn"></a>
+                    <a href="https://www.linkedin.com/in/k%C3%A9vin-camus-2577a4261/?originalSubdomain=fr" target="_blank" id="linkedin-logo"><img src="assets/images/LinkedIn_logo.avif" alt="Logo LinkedIn"></a>
                 </nav>
             </div>
         <div class="Part2" id="accueil">
             <div class="flexbox">
                 <h2 class="titre2">Accueil</h2>
-                <img src="./docs/images/Photo_CV.jpg" alt="Photo CV">
+                <img src="assets/images/Photo_CV.jpg" alt="Photo CV">
                 <ul>
                     <li>Nom : CAMUS</li>
                     <li>Prénom : Kévin</li>
@@ -40,14 +43,16 @@
 
         <section class="apropos" id="apropos">
             <div class="fond">
-                <img class="img1" src="./docs/images/hackerman.png" alt="Code">
-                <img class="img2" src="./docs/images/hackerman.png" alt="Code">
-                <img class="img3" src="./docs/images/hackerman.png" alt="Code">
-                <img class="img4" src="./docs/images/hackerman.png" alt="Code">
-                <img class="img5" src="./docs/images/hackerman.png" alt="Code">
+                <img class="img1" src="assets/images/hackerman.png" alt="Code">
+                <img class="img2" src="assets/images/hackerman.png" alt="Code">
+                <img class="img3" src="assets/images/hackerman.png" alt="Code">
+                <img class="img4" src="assets/images/hackerman.png" alt="Code">
+                <img class="img5" src="assets/images/hackerman.png" alt="Code">
+            </div>
+            <div class="titre_apropos">
+            <h2 class="titre4">A propos</h2>
             </div>
             <div class="text">
-                <h2 class="titre4">A propos</h2>
                 <p>Je suis actuellement en BTS SIO (Services Informatiques<br>aux Organisations) en alternance pour une durée de 2<br>ans dans l'entreprise Coulidoor.<br>
                     Je souhaiterai continuer mes études jusqu'en licence<br>puis devenir programmeur de jeux vidéos dans le futur.</p>
             </div>
@@ -84,7 +89,15 @@
                     </div>
                 </div>
             </div>
+            <div class="developpement">
+                <h3 class="titre7">Développement</h3>
+                <div class="">
+
+                </div>
+
+            </div>
 
         </section>
 </body>
 </html>
+
