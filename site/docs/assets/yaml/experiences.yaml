@@ -1,0 +1,30 @@
+title: Expériences Professionnelles
+
+poste: Poste
+poste2: Stagiaire
+
+entreprise: Entreprise
+entreprise2: Coulidoor
+
+lieu: Lieu
+lieu2: Verson
+
+periode: Période
+periode2: 2019
+
+tache: Tâches
+
+taches: 
+    - crea : Création d’accusé de réception/Vérification
+      obs : Observation du développement de SILOG (Logiciel)
+
+poste3: Apprenti Développeur Junior
+
+periode3: Août 2023 - Août 2025
+
+taches2:
+    - param: Paramétrages et développements en lien avec l'ERP
+      traite: Traitement de tickets concernant l'ERP
+      crea2: Création d'états Crystal Reports
+      crea3: Création de masques dans l'ERP
+      dev: Développement d'une interface/application d'envoi mail interne à l'ERP
