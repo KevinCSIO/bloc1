@@ -1,41 +1,21 @@
 <?php
-if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-
-  require("PHPMailer/src/PHPMailer.php");
-  require("PHPMailer/src/SMTP.php");
-
-    $mail = new PHPMailer\PHPMailer\PHPMailer();
-    $mail->IsSMTP(); // enable SMTP
-
-    $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
-    $mail->SMTPAuth = true; // authentication enabled
-    $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-    $mail->Host = "smtp.gmail.com";
-    $mail->Port = 465; // or 587
-    $mail->IsHTML(true);
-    $mail->Username = "kevin.camus@sts-sio-caen.info";
-    $mail->Password = "Rb16b.501";
-    $mail->SetFrom("kevin.camus@sts-sio-caen.info");
-    $mail->Subject = "Test";
-    $mail->Body = "  
-    <html>
-    <body>
-        <p>Nom : " . $name . "</p>
-        <p>Courriel : " . $email . "</p>
-        <p>Message : " . $message . "</p>
-    </body>
-    </html>
-    ";   
-    $mail->AddAddress("kevin.camus@sts-sio-caen.info");
-
-     if(!$mail->Send()) {
-        echo "Mailer Error: " . $mail->ErrorInfo;
-     } else {
-        echo "Message has been sent";
-        header('Location: index.php#contact');
-     }
-    }
+$data = yaml_parse_file("assets/yaml/contact.yaml");
 ?>
+
+<section class="contact" id="contact">
+    <div class="titre_contc">
+      <?php
+      echo '<h2 class="titre11">'.($data["title"]).'</h2>';?>
+    </div>
+    <div class="contc">
+        <form action="contact.php" method="post">
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Courriel :</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</section>
