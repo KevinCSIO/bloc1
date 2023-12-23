@@ -25,6 +25,10 @@ body {
     z-index: 100;
 }
 
+section{
+    margin-top: 125px;
+}
+
 .titre1 {
     width: 400px;
     color: #FFF;
