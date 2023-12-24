@@ -9,8 +9,28 @@ body {
     color: #333;
 }
 
-.id{
-    margin-top: 150px;
+#accueil{
+    margin-top: 200px;
+}
+
+#apropos{
+    margin-top: 200px;
+}
+
+#competences{
+    padding-top: 150px;
+}
+
+#experience{
+    padding-top: 150px;
+}
+
+#formation{
+    padding-top: 150px;
+}
+
+#contact{
+    padding-top: 150px;
 }
 
 .header {

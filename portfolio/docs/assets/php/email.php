@@ -17,7 +17,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
     $mail->Port = 465; // or 587
     $mail->IsHTML(true);
     $mail->Username = "kevin.camus@sts-sio-caen.info";
-    $mail->Password = "Rb16b.501";
+    $mail->Password = "Dreamer78_";
     $mail->SetFrom("kevin.camus@sts-sio-caen.info");
     $mail->Subject = "Test";
     $mail->Body = "  
